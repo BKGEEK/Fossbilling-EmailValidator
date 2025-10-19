@@ -16,8 +16,7 @@
 
 ## 配置
 
-在 FOSSBilling 管理面板中，进入 **系统设置** > **模块** > **客户端** 配置以下选项：
-
+在```Service.php```中硬编码
 ### 邮箱域名验证设置
 
 - `email_domain_validation_enabled`：启用/禁用邮箱域名验证
@@ -31,7 +30,7 @@
 
 ### 配置允许的域名
 
-在管理面板中设置：
+在```Service.php```中硬编码
 
 ```
 email_domain_validation_enabled: true
