@@ -308,7 +308,7 @@ class Tools
             }
         }
 
-        // 检查是否禁止别名邮箱 (硬编码开关)
+        // 是否检查邮箱 (硬编码开关)
         if ($disableAliasEmails && $this->isAliasEmail($email)) {
             if ($throw) {
                 throw new InformationException('Alias email addresses are not allowed. Please use a primary email address.');
@@ -453,3 +453,4 @@ class Tools
         return null;
     }
 }
+
